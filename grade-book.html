@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Biology 3 - Grades</title>
+
+    <style>
+        
+        body {
+            background-color: #fff8f5;
+        }
+
+        header {
+            background-color: #7c9977;
+            padding: 20px;
+        }
+
+        #profile{
+          border-radius: 150px;
+          width:42px;
+        }
+ 
+        #logo{
+          margin-left:16px;
+          margin-top:7px;
+          width:57px;
+        }
+
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          background-color: #6CA878; 
+        }
+ 
+        li {
+          float: left;
+        }
+ 
+        li a {
+          display: block;
+          color: #D5EBD5;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 25px;
+        }
+ 
+        li a:hover {
+          background-color: #45723d98;
+          text-decoration: none;
+        }
+ 
+        #pfp {
+          border-radius: 150px;
+          width:42px;
+        }
+ 
+        @media only screen and (max-width: 480px) {
+            img{
+                width:100%;
+                height:auto;
+                padding: 0px;
+            }
+
+            li a {
+                font-size: 14pt;
+            }
+        }
+
+        div {
+            margin-top: 150px;
+        }
+
+        .display-2 {
+            margin-left: 3%;
+        }
+
+        .display-6 {
+            margin-left: 2%;
+        }
+
+        footer {
+            color: #d5ebd5;
+            background-color: #7c9977;
+            margin-top: 10%;
+            padding: 50px;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><img id="logo" src="https://evc.pshs.edu.ph/wp-content/uploads/2021/07/pisay-hd.png" alt="logo"></li>
+            <li><h1><b>EcoHub</b></h1></li>
+            <li style="float:right"><a class="active" href="#"><img id="profile"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwaLDKaK49tsHmdMGOrmTdns5qiw080F2Yw&usqp=CAU" alt="profile"></a>
+            </li>
+            <li style="float:right"><a class="active" href="ref-page.html">References</a></li>
+            <li style="float:right"><a class="active" href="courses.html">Courses</a></li>
+            <li style="float:right"><a class="active" href="homepage.html">Home</a></li>
+        </ul>
+ 
+    </nav>
+
+  
+    <div>
+
+        <p class="display-2"><b>Biology 1</b></p>
+        <p class="display-6"><b>Gradebook</b></p>
+
+        <table class="table table-hover table-responsive-sm my-5 table-striped">
+            <tr class="h3">
+                <td>Grade Item</td>
+                <td>Calculated Weight</td>
+                <td>Grade</td>
+                <td>Range</td>
+                <td>Percentage</td>
+                <td>Feedback</td>
+                <td>Contribution to Course Total</td>
+            </tr>
+
+            <tr class="table-success">
+                <td class="h4">1st Quarter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="h5">Formative Assessments</td>
+                <td>25%</td>
+                <td>300</td>
+                <td>0 - 300</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>25%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 1</td>
+                <td>8.33%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>8.33%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 2</td>
+                <td>8.33%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>8.33%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 3</td>
+                <td>8.33%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>8.33%</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Alternative Assessments</td>
+                <td>40%</td>
+                <td>100</td>
+                <td>0 - 200</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 1</td>
+                <td>20%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 2</td>
+                <td>20%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Quarter Project</td>
+                <td>35%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>35%</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="table-success">
+                <td class="h4">2nd Quarter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="h5">Formative Assessments</td>
+                <td>25%</td>
+                <td>100</td>
+                <td>0 - 300</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>25%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 1</td>
+                <td>8.33%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>8.33%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 2</td>
+                <td>8.33%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>8.33%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Alternative Assessments</td>
+                <td>40%</td>
+                <td>200</td>
+                <td>0 - 200</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>40%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 1</td>
+                <td>20%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 2</td>
+                <td>20%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Quarter Project</td>
+                <td>35%</td>
+                <td>100</td>
+                <td>0 - 100</td>
+                <td>100%</td>
+                <td>Good</td>
+                <td>35%</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="table-success">
+                <td class="h4">3rd Quarter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="h5">Formative Assessments</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 1</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Alternative Assessments</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 1</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Quarter Project</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr class="table-success">
+                <td class="h4">4th Quarter</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="h5">Formative Assessments</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 1</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Formative Assessment 3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Alternative Assessments</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 1</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h6">Alternative Assessment 2</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td class="h5">Quarter Project</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+
+        </table>
+    
+    </div>
+
+    <footer class="container-fluid">
+        <h5 class="h5">&copy; 2023 - EcoHub</h5> 
+    </footer>
+
+</body>
+
+</html>
